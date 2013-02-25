@@ -1,0 +1,473 @@
+{
+    "hash": "f3c9e2bbb934b775ca85afae9b3b3811",
+    "packages": [
+        {
+            "name": "foton/admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-admin.git",
+                "reference": "76464848622fa825c9ee71fa51a58e5c97cfea63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-admin/zipball/76464848622fa825c9ee71fa51a58e5c97cfea63",
+                "reference": "76464848622fa825c9ee71fa51a58e5c97cfea63",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*",
+                "foton/user": "1.*"
+            },
+            "time": "2013-02-25 02:01:54",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/captcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-captcha.git",
+                "reference": "e8708fc8d3d342fe4ea28e0df560e999e249b8f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-captcha/zipball/e8708fc8d3d342fe4ea28e0df560e999e249b8f5",
+                "reference": "e8708fc8d3d342fe4ea28e0df560e999e249b8f5",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 04:05:11",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/code_protection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-code_protection.git",
+                "reference": "878470d29ac3702cb866b939dc3737f59c7faeb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-code_protection/zipball/878470d29ac3702cb866b939dc3737f59c7faeb4",
+                "reference": "878470d29ac3702cb866b939dc3737f59c7faeb4",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 05:10:46",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/comments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-comments.git",
+                "reference": "3e685c9d9887e358ceb694bd31f3eea6da1e6584"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-comments/zipball/3e685c9d9887e358ceb694bd31f3eea6da1e6584",
+                "reference": "3e685c9d9887e358ceb694bd31f3eea6da1e6584",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*",
+                "foton/user": "1.*"
+            },
+            "time": "2013-02-25 02:02:06",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/debug",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-debug.git",
+                "reference": "45c88d391f8edd4fb3164dcb4e88d74df1bebc3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-debug/zipball/45c88d391f8edd4fb3164dcb4e88d74df1bebc3e",
+                "reference": "45c88d391f8edd4fb3164dcb4e88d74df1bebc3e",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 02:00:42",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/framework.git",
+                "reference": "4b9ecc0461bd151be0b019a2b91ee1dbfb104d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/framework/zipball/4b9ecc0461bd151be0b019a2b91ee1dbfb104d4c",
+                "reference": "4b9ecc0461bd151be0b019a2b91ee1dbfb104d4c",
+                "shasum": ""
+            },
+            "require": {
+                "foton/admin": "1.*",
+                "foton/debug": "1.*",
+                "foton/installer": "*",
+                "foton/user": "1.*"
+            },
+            "time": "2013-02-25 06:01:18",
+            "type": "foton-core",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-html.git",
+                "reference": "84b2f06aced8ff959b8495710d795d063af5fcba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-html/zipball/84b2f06aced8ff959b8495710d795d063af5fcba",
+                "reference": "84b2f06aced8ff959b8495710d795d063af5fcba",
+                "shasum": ""
+            },
+            "require": {
+                "foton/admin": "1.*",
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 02:02:22",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/image_field",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-image_field.git",
+                "reference": "9931f4b9dd08e9f703b6238e6d9fbdeba48c87c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-image_field/zipball/9931f4b9dd08e9f703b6238e6d9fbdeba48c87c3",
+                "reference": "9931f4b9dd08e9f703b6238e6d9fbdeba48c87c3",
+                "shasum": ""
+            },
+            "require": {
+                "foton/admin": "1.*",
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 05:07:47",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/composer-installer.git",
+                "reference": "0a3ff92fd8d0c6073d937b998894956bc82f9970"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/composer-installer/zipball/0a3ff92fd8d0c6073d937b998894956bc82f9970",
+                "reference": "0a3ff92fd8d0c6073d937b998894956bc82f9970",
+                "shasum": ""
+            },
+            "time": "2013-02-25 00:12:33",
+            "type": "composer-installer",
+            "extra": {
+                "class": "Foton\\Composer\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Foton\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/js_validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-js_validation.git",
+                "reference": "f278ea8752c7e51dfaf7f3efadd358e206ca80bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-js_validation/zipball/f278ea8752c7e51dfaf7f3efadd358e206ca80bb",
+                "reference": "f278ea8752c7e51dfaf7f3efadd358e206ca80bb",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 05:39:25",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-log.git",
+                "reference": "2337dfc830cfa579377f81a5384c73c106c0d33b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-log/zipball/2337dfc830cfa579377f81a5384c73c106c0d33b",
+                "reference": "2337dfc830cfa579377f81a5384c73c106c0d33b",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 02:02:42",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/ratio",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-ratio.git",
+                "reference": "15e5fb96646e877c1abe8c5dafd7a8c5fd22f729"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-ratio/zipball/15e5fb96646e877c1abe8c5dafd7a8c5fd22f729",
+                "reference": "15e5fb96646e877c1abe8c5dafd7a8c5fd22f729",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*",
+                "foton/user": "1.*"
+            },
+            "time": "2013-02-25 04:21:06",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/seo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-seo.git",
+                "reference": "ceb39d68f924eb4bc0162de10a0aa37957eee01f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-seo/zipball/ceb39d68f924eb4bc0162de10a0aa37957eee01f",
+                "reference": "ceb39d68f924eb4bc0162de10a0aa37957eee01f",
+                "shasum": ""
+            },
+            "require": {
+                "foton/admin": "1.*",
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 02:03:16",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-user.git",
+                "reference": "04e867c236e762eb0724ea2d85b13a9937fd8551"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-user/zipball/04e867c236e762eb0724ea2d85b13a9937fd8551",
+                "reference": "04e867c236e762eb0724ea2d85b13a9937fd8551",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 06:03:30",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "foton/versioning",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foton-framework/ext-versioning.git",
+                "reference": "9791660106e1bfdbccbfd88fca8041519af31b25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foton-framework/ext-versioning/zipball/9791660106e1bfdbccbfd88fca8041519af31b25",
+                "reference": "9791660106e1bfdbccbfd88fca8041519af31b25",
+                "shasum": ""
+            },
+            "require": {
+                "foton/framework": "1.*",
+                "foton/installer": "*"
+            },
+            "time": "2013-02-25 03:16:58",
+            "type": "foton-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ]
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
