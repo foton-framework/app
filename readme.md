@@ -2,6 +2,10 @@
 
 ## Installation
 
+### Cloning app
+	
+	$ git clone git://github.com/foton-framework/app.git path/to/your-site.local
+
 ### Install Composer
 
 [More info](http://getcomposer.org/)
