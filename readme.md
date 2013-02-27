@@ -32,6 +32,7 @@ Download [installer](https://getcomposer.org/Composer-Setup.exe)
 	{
 		"require": {
 			"foton/framework":       "1.*",
+			"foton/console":         "1.*",
 			"foton/debug":           "1.*",
 			"foton/admin":           "1.*",
 			"foton/user":            "1.*",
