@@ -1,0 +1,85 @@
+SET NAMES utf8;
+SET foreign_key_checks = 0;
+SET time_zone = 'SYSTEM';
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+DROP TABLE IF EXISTS `html`;
+CREATE TABLE `html` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `status` tinyint(1) NOT NULL,
+  `type` varchar(32) NOT NULL,
+  `rel_id` int(11) NOT NULL,
+  `body` text NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `status` (`status`),
+  KEY `type` (`type`),
+  KEY `rel_id` (`rel_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `seo`;
+CREATE TABLE `seo` (
+  `id` varchar(32) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `keywords` varchar(255) DEFAULT NULL,
+  `description` text,
+  `h1` varchar(255) DEFAULT NULL,
+  `body` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `group_id` int(11) NOT NULL DEFAULT '0',
+  `email` varchar(128) NOT NULL,
+  `login` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT '1',
+  `regdate` int(11) NOT NULL DEFAULT '0',
+  `last_visit` int(11) NOT NULL,
+  `photo` varchar(64) NOT NULL,
+  `name` varchar(128) NOT NULL,
+  `surname` varchar(128) NOT NULL,
+  `patronymic` varchar(128) NOT NULL,
+  `score` int(11) NOT NULL DEFAULT '100',
+  `country_id` int(11) NOT NULL,
+  `city_id` int(11) NOT NULL,
+  `speciality` varchar(255) NOT NULL,
+  `degree` varchar(255) NOT NULL,
+  `experience` varchar(255) NOT NULL,
+  `phone` varchar(255) NOT NULL,
+  `work` varchar(255) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `clinic_id` int(11) NOT NULL,
+  `subscribe` tinyint(1) NOT NULL DEFAULT '1',
+  `identity` varchar(255) NOT NULL,
+  `provider` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `users_permission`;
+CREATE TABLE `users_permission` (
+  `uid` int(11) NOT NULL,
+  `group_id` int(11) NOT NULL,
+  `allow` varchar(128) NOT NULL,
+  `deny` varchar(128) NOT NULL,
+  `priority` int(11) NOT NULL,
+  KEY `uid` (`uid`),
+  KEY `group_id` (`group_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+INSERT INTO `users_permission` (`uid`, `group_id`, `allow`, `deny`, `priority`) VALUES
+(0,  1,	'admin',	'',	0);
+
+DROP TABLE IF EXISTS `users_sessions`;
+CREATE TABLE `users_sessions` (
+  `sid` varchar(32) NOT NULL,
+  `uid` int(11) NOT NULL,
+  `salt` varchar(32) NOT NULL,
+  `ip_long` bigint(20) NOT NULL,
+  `last_visit` int(11) NOT NULL,
+  PRIMARY KEY (`sid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
