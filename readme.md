@@ -22,13 +22,12 @@ Download [installer](https://getcomposer.org/Composer-Setup.exe)
 
 	$ php composer.phar install
 
-### Install framework
+### Update framework
 
 	$ php composer.phar update
 
 ### composer.json
 
-	:::json
 	{
 		"require": {
 			"foton/framework":       "1.*",
