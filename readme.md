@@ -28,23 +28,25 @@ Download [installer](https://getcomposer.org/Composer-Setup.exe)
 
 ### composer.json
 
-	{
-		"require": {
-			"foton/framework":       "1.*",
-			"foton/console":         "1.*",
-			"foton/debug":           "1.*",
-			"foton/admin":           "1.*",
-			"foton/user":            "1.*",
-			"foton/comments":        "1.*",
-			"foton/html":            "1.*",
-			"foton/image_field":     "1.*",
-			"foton/log":             "1.*",
-			"foton/seo":             "1.*",
-			"foton/versioning":      "1.*",
-			"foton/captcha":         "1.*",
-			"foton/code_protection": "1.*",
-			"foton/js_validation":   "1.*",
-			"foton/ratio":           "1.*"
-		},
-		"minimum-stability": "dev"
-	}
+```json
+{
+	"require": {
+		"foton/framework":       "1.*",
+		"foton/console":         "1.*",
+		"foton/debug":           "1.*",
+		"foton/admin":           "1.*",
+		"foton/user":            "1.*",
+		"foton/comments":        "1.*",
+		"foton/html":            "1.*",
+		"foton/image_field":     "1.*",
+		"foton/log":             "1.*",
+		"foton/seo":             "1.*",
+		"foton/versioning":      "1.*",
+		"foton/captcha":         "1.*",
+		"foton/code_protection": "1.*",
+		"foton/js_validation":   "1.*",
+		"foton/ratio":           "1.*"
+	},
+	"minimum-stability": "dev"
+}
+```
